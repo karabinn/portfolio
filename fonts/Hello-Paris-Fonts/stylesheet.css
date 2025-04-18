@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Hello Paris Sans';
+    src: url('HelloParisSansRegular.woff2') format('woff2'),
+        url('HelloParisSansRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hello Paris Sans';
+    src: url('HelloParisSansExtraLight.woff2') format('woff2'),
+        url('HelloParisSansExtraLight.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hello Paris Sans';
+    src: url('HelloParisSansLight.woff2') format('woff2'),
+        url('HelloParisSansLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hello Paris Sans';
+    src: url('HelloParisSansMedium.woff2') format('woff2'),
+        url('HelloParisSansMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hello Paris Sans';
+    src: url('HelloParisSansBold.woff2') format('woff2'),
+        url('HelloParisSansBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
