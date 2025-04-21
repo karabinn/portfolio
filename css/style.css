@@ -30,11 +30,13 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700);
 
 @font-face {
-    font-family: 'HelloParis' ;
+    font-family: 'Hello Paris Sans' ;
     src: url('./fonts/Hello-Paris-Fonts/HelloParisSansLight.woff2') format('woff2');
-    font-weight: normal;
+    src: url('../fonts/Hello-Paris-Fonts/HelloParisSansLight.woff') format('woff');
+    font-weight: 300;
     font-style: normal;
     font-feature-settings: 'ss01' 1, 'liga' 1;
+    font-display: swap;
   }
 /* General
 ==================================================*/
@@ -540,7 +542,7 @@ b i:last-child {
     font-size: 280px;
     font-family: 'Hello Paris Sans';
     line-height: 1.0;
-    font-weight: 200; 
+    font-weight: 300; 
     font-style: normal;
 }
 
